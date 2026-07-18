@@ -9,8 +9,10 @@
 
 | Name | Student ID | GitHub | Role |
 |------|-----------|--------|------|
+| MD Arafat Alam Abir | 0112331103 | abir-11,(https://github.com/abir-11) | Full Stack Developer
+| [Member 2] | [ID] | [@username](https://github.com/username) | [e.g. Frontend Developer] |
 | [Member 1] | [ID] | [@username](https://github.com/username) | [e.g. Backend Developer] |
-| Md Raduan Hasan | [ID] | [@raduanhasan](https://github.com/raduanhasan) | [Frontend Developer] |
+| [Member 2] | [ID] | [@username](https://github.com/username) | [e.g. Frontend Developer] |
 
 ## Project Description
 [2–3 sentences: what problem does this solve and for whom?]
