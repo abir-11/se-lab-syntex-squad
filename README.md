@@ -10,7 +10,7 @@
 | Name | Student ID | GitHub | Role |
 |------|-----------|--------|------|
 | [Member 1] | [ID] | [@username](https://github.com/username) | [e.g. Backend Developer] |
-| [Member 2] | [ID] | [@username](https://github.com/username) | [e.g. Frontend Developer] |
+| [Shehab Al Koraishe] | [0112331063] | [@sakoraishe](https://github.com/sakoraishe) | UI/UX Designer |
 
 ## Project Description
 [2–3 sentences: what problem does this solve and for whom?]
