@@ -1,4 +1,4 @@
-# [Project Name]
+Agritech
 > Replace this with your actual project name and one-line description.
 
 **UIU Software Engineering Lab | Section D | Lab 422 | Summer 2026**
