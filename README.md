@@ -11,7 +11,7 @@ Agritech
 |------|-----------|--------|------|
 | MD Arafat Alam Abir | 0112331103 | abir-11,(https://github.com/abir-11) | Full Stack Developer
 | Md. Raduan Hasan | 0112330083 | @raduanhasan(https://github.com/raduanhasan) |  Frontend Developer |
-| [Member 1] | [ID] | [@username](https://github.com/username) | [e.g. Backend Developer] |
+| Nur Hossain Nazim | 0112230296 | [@NurNazim21](https://github.com/NurNazim21) | [e.g. Backend Developer] |
 | [Shehab Al Koraishe] | [0112331063] | [@sakoraishe](https://github.com/sakoraishe) | UI/UX Designer |
 | [Member 2] | [ID] | [@username](https://github.com/username) | [e.g. Frontend Developer] |
 
