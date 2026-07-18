@@ -1,4 +1,4 @@
-# [Project Name]
+Agritech
 > Replace this with your actual project name and one-line description.
 
 **UIU Software Engineering Lab | Section D | Lab 422 | Summer 2026**
@@ -10,9 +10,11 @@
 | Name | Student ID | GitHub | Role |
 |------|-----------|--------|------|
 | MD Arafat Alam Abir | 0112331103 | abir-11,(https://github.com/abir-11) | Full Stack Developer
-| [Member 2] | [ID] | [@username](https://github.com/username) | [e.g. Frontend Developer] |
-| [Member 1] | [ID] | [@username](https://github.com/username) | [e.g. Backend Developer] |
-| [Member 2] | [ID] | [@username](https://github.com/username) | [e.g. Frontend Developer] |
+| Md. Raduan Hasan | 0112330083 | @raduanhasan(https://github.com/raduanhasan) |  Frontend Developer |
+| Nur Hossain Nazim | 0112230296 | [@NurNazim21](https://github.com/NurNazim21) | [e.g. Backend Developer] |
+| [Shehab Al Koraishe] | [0112331063] | [@sakoraishe](https://github.com/sakoraishe) | UI/UX Designer |
+| Kanij Fatema Bipa | 0112230494 | [@KanijFatemaBipa18](https://github.com/KanijFatemaBipa18) | [e.g. Frontend Developer] |
+
 
 ## Project Description
 [2–3 sentences: what problem does this solve and for whom?]
