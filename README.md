@@ -14,7 +14,7 @@
 | [Member 1] | [ID] | [@username](https://github.com/username) | [e.g. Backend Developer] |
 | [Shehab Al Koraishe] | [0112331063] | [@sakoraishe](https://github.com/sakoraishe) | UI/UX Designer |
 | [Member 2] | [ID] | [@username](https://github.com/username) | [e.g. Frontend Developer] |
-| [Member 2] | [ID] | [@username](https://github.com/username) | [e.g. Frontend Developer] |
+
 
 ## Project Description
 [2–3 sentences: what problem does this solve and for whom?]
