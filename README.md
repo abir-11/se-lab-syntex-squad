@@ -13,7 +13,7 @@ Agritech
 | Md. Raduan Hasan | 0112330083 | @raduanhasan(https://github.com/raduanhasan) |  Frontend Developer |
 | Nur Hossain Nazim | 0112230296 | [@NurNazim21](https://github.com/NurNazim21) | [e.g. Backend Developer] |
 | [Shehab Al Koraishe] | [0112331063] | [@sakoraishe](https://github.com/sakoraishe) | UI/UX Designer |
-| Kanij Fatema Bipa | 0112230494 | [@KanijFatemaBipa18](https://github.com/KanijFatemaBipa18) | [e.g. Frontend Developer] |
+| Kanij Fatema Bipa | 0112230494 | [@KanijFatemaBipa18](https://github.com/KanijFatemaBipa18) | [e.g. Documentation] |
 
 
 ## Project Description
