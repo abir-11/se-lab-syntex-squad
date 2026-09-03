@@ -1,4 +1,4 @@
-# Contributing Guide
+# Contributing Guide - Syntex-Squad
 
 ## Branching Strategy (GitFlow)
 - `main` → always deployable, branch-protected
@@ -30,6 +30,18 @@
 - [ ] Any potential security issues?
 - [ ] Is the code readable without excessive comments?
 - [ ] Does it follow the project's code style?
+
+
+## Team Members
+| Name | GitHub | Role |
+|------|--------|------|
+| [Name] | @handle | [Role] |
+
+| MD Arafat Alam Abir | 0112331103 | [@abir-11](https://github.com/abir-11) | Full Stack Developer
+| Md. Raduan Hasan | 0112330083 | [@raduanhasan](https://github.com/raduanhasan) |  Frontend Developer |
+| Nur Hossain Nazim | 0112230296 | [@NurNazim21](https://github.com/NurNazim21) | e.g. Backend Developer |
+| Shehab Al Koraishe | [0112331063] | [@sakoraishe](https://github.com/sakoraishe) | UI/UX Designer |
+| Kanij Fatema Bipa | [ID] | [@username](https://github.com/username) | e.g. Documentation  |
 
 ## Getting Help
 Open a GitHub Issue with label `blocked` and tag `@rejwanahmed007`
