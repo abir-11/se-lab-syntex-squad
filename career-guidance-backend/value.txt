@@ -1,0 +1,4 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmFiZTJjYmNiNDM0OGRkOWYzM2M1YThhIiwiZW1haWwiOiJjYXJlZXJ0ZXN0MjAyNkBleGFtcGxlLmNvbSIsImV4cCI6MTc5MDkzNDU4OH0.ub8sprgXnnxJoDkTMWjkLRH7TQgwfdES9AwEBLpZhp8
+venv\Scripts\activate
+python -m uvicorn app.main:app --reload
+(Invoke-WebRequest -Uri "https://api.ipify.org").Content
