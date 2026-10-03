@@ -11,13 +11,15 @@ interface AdminUser {
 }
 
 const navItems = [
-  { name: "Dashboard",   href: "/dashboard/admin" },
-  { name: "Events",      href: "/dashboard/admin/events" },
-  { name: "Departments", href: "/dashboard/admin/departments" },
-  { name: "Users",       href: "/dashboard/admin/users" },
-  { name: "Resources",   href: "/dashboard/admin/resources" },
-  { name: "Alerts",      href: "/dashboard/admin/alerts" },
-  { name: "Campus News", href: "/dashboard/admin/campus-news" },
+  { name: "Dashboard",           href: "/dashboard/admin" },
+  { name: "Events",              href: "/dashboard/admin/events" },
+  { name: "Departments",         href: "/dashboard/admin/departments" },
+  { name: "Users",               href: "/dashboard/admin/users" },
+  { name: "Mentor Applications", href: "/dashboard/admin/mentor-applications" },
+  { name: "Resources",           href: "/dashboard/admin/resources" },
+  { name: "Alerts",              href: "/dashboard/admin/alerts" },
+  { name: "Campus News",         href: "/dashboard/admin/campus-news" },
+  { name: "Payments",            href: "/dashboard/admin/payments" },
 ];
 
 export default function DashboardHeader({ user }: { user: AdminUser | null }) {

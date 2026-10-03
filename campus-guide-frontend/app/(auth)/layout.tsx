@@ -6,7 +6,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
     <div className="min-h-screen bg-[#FAFAF9] flex">
       <div className="hidden lg:flex lg:w-1/2 bg-[#1F2937] flex-col justify-between p-12 relative overflow-hidden">
         <img
-          src="https://admission.uiu.ac.bd/Images/Img/carosol_img/Carosol_1.jpg"
+          src="https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=900&fit=crop&auto=format"
           alt="UIU Campus"
           className="absolute inset-0 w-full h-full object-cover opacity-20"
         />

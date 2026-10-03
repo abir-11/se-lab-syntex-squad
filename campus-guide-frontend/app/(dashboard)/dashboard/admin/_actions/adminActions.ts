@@ -81,6 +81,7 @@ export async function fetchAdminStats() {
       await Promise.allSettled([
         request('/auth'),
         request('/mentors-apply'),
+        request('/mentors-apply/pending-applications'),
         request('/events'),
         request('/departments'),
         request('/bookings'),
@@ -247,9 +248,13 @@ export async function deleteDepartment(id: string) {
 }
 
 // ─── 5. Mentor Applications ───────────────────────────────────────────────────
+
+
 export async function fetchMentorApplications() {
   try {
-    const res = await request('/mentors-apply');
+
+    const res = await request('/mentors-apply/pending-applications'); 
+    
     if (!res.ok) {
       return { success: false, message: res.message || 'Failed to fetch applications', data: [] };
     }
@@ -261,20 +266,29 @@ export async function fetchMentorApplications() {
 
 export async function updateMentorApprovalStatus(
   id: string,
-  status: 'approved' | 'rejected'
+  payload: Partial<{
+    status: string;
+  }>
 ) {
   try {
-    // Correct route: PATCH /api/mentors-apply/:id/status
     const res = await request(`/mentors-apply/${id}/status`, {
       method: 'PATCH',
-      body: { status },
+      body: payload,
     });
+
     if (!res.ok) {
-      return { success: false, message: res.message || 'Failed to update status' };
+      return {
+        success: false,
+        message: res.message || 'Failed to update mentor application',
+      };
     }
-    return { success: true, data: res.data };
-  } catch (error: any) {
-    return { success: false, message: error?.message || 'Something went wrong' };
+
+    return {
+      success: true,
+      data: res.data,
+    };
+  }  catch (error: any) {
+    return { success: false, message: error?.message || 'Something went wrong', data: [] };
   }
 }
 

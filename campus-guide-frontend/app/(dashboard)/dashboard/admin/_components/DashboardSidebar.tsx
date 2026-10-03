@@ -4,7 +4,8 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import {
   LayoutDashboard, Calendar, Building2, Users, LogOut,
-  Menu, X, Bell, ShieldCheck, BookOpen, Newspaper, Home,
+  Menu, X, Bell, ShieldCheck, BookOpen, Newspaper, Home, CreditCard,
+  UserCheck,
 } from "lucide-react";
 import { useState } from "react";
 import { logoutAction } from "@/app/(auth)/_actions/auth";
@@ -16,13 +17,15 @@ interface AdminUser {
 }
 
 const navItems = [
-  { name: "Dashboard",   href: "/dashboard/admin",             icon: LayoutDashboard },
-  { name: "Events",      href: "/dashboard/admin/events",      icon: Calendar },
-  { name: "Departments", href: "/dashboard/admin/departments", icon: Building2 },
-  { name: "Users",       href: "/dashboard/admin/users",       icon: Users },
-  { name: "Resources",   href: "/dashboard/admin/resources",   icon: BookOpen },
-  { name: "Alerts",      href: "/dashboard/admin/alerts",      icon: Bell },
-  { name: "Campus News", href: "/dashboard/admin/campus-news", icon: Newspaper },
+  { name: "Dashboard",            href: "/dashboard/admin",                      icon: LayoutDashboard },
+  { name: "Events",               href: "/dashboard/admin/events",               icon: Calendar },
+  { name: "Departments",          href: "/dashboard/admin/departments",           icon: Building2 },
+  { name: "Users",                href: "/dashboard/admin/users",                icon: Users },
+  { name: "Mentor Applications",  href: "/dashboard/admin/mentor-applications",  icon: UserCheck },
+  { name: "Resources",            href: "/dashboard/admin/resources",            icon: BookOpen },
+  { name: "Alerts",               href: "/dashboard/admin/alerts",               icon: Bell },
+  { name: "Campus News",          href: "/dashboard/admin/campus-news",          icon: Newspaper },
+  { name: "Payments",             href: "/dashboard/admin/payments",             icon: CreditCard },
 ];
 
 export default function DashboardSidebar({ user }: { user: AdminUser | null }) {
