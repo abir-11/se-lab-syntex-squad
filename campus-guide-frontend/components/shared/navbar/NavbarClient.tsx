@@ -13,20 +13,19 @@ import { logoutAction } from "@/app/(auth)/_actions/auth";
 // ── Nav link sets ─────────────────────────────────────────────────────────────
 const publicLinks = [
   { href: "/",          label: "Home" },
-  { href: "/services",  label: "Services" },
-  { href: "/mentors",   label: "Mentors" },
-  { href: "/stories",   label: "Stories" },
+  // { href: "/mentors",   label: "Mentors" },
+  { href: "/services",  label: "Mentors-Services" },
   { href: "/events",    label: "Events" },
   { href: "/news",      label: "Campus News" },
-  { href: "/alerts",    label: "Alerts" },
   { href: "/resources", label: "Resources" },
+  { href: "/contact",   label: "Contact" },
 ];
 
 const loggedInLinks = [
-  { href: "/mentors",   label: "Mentors" },
-  { href: "/services",  label: "Services" },
+  // { href: "/mentors",   label: "Mentors" },
+  { href: "/services",  label: "Mentors-Services" },
   { href: "/events",    label: "Events" },
-  { href: "/news",      label: "Campus News" },
+  { href: "/contact",   label: "Contact" },
 ];
 
 const roleBadgeLabel: Record<string, string> = {
@@ -60,7 +59,6 @@ export default function NavbarClient({ user }: NavbarClientProps) {
     setProfileOpen(false);
     setMenuOpen(false);
     await logoutAction();
-    // Full page reload করে লগআউট নিশ্চিত করা
     window.location.href = "/login";
   };
 

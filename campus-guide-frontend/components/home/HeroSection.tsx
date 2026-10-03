@@ -12,7 +12,7 @@ export default function HeroSection() {
   return (
     <section className="relative bg-[#1F2937] overflow-hidden">
       <img
-        src="https://admission.uiu.ac.bd/Images/Img/carosol_img/Carosol_1.jpg"
+        src="https://images.unsplash.com/photo-1562774053-701939374585?w=1440&h=700&fit=crop&auto=format"
         alt="UIU Campus"
         className="absolute inset-0 w-full h-full object-cover opacity-30"
       />
